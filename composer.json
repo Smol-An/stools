@@ -1,0 +1,25 @@
+{
+    "name": "smolan/stools",
+    "description": "test-code",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/config/database_config.php",
+            "src/config/database.php",
+            "src/controllers/ProductController.php",
+            "src/models/Collection.php",
+            "src/models/Product.php",
+            "src/views/product_list.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anastasia Smolyakova",
+            "email": "smolyakova_av@mail.ru"
+        }
+    ],
+    "require": {}
+}
