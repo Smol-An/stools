@@ -11,13 +11,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        },
-        "files": [
-            "src/config/Database.php",
-            "src/controllers/ProductController.php",
-            "src/models/Collection.php",
-            "src/models/Product.php"
-        ]
+        }
     },
     "require": {}
 }
