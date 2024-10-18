@@ -2,7 +2,8 @@
 
 namespace App\Models;
 
-class Product {
+class Product
+{
     private $conn;
     private $table_name = "products";
 

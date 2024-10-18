@@ -2,7 +2,8 @@
 
 namespace App\Models;
 
-class Collection {
+class Collection
+{
     private $conn;
     private $table_name = "collections";
 

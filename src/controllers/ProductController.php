@@ -5,7 +5,8 @@ namespace App\Controllers;
 use App\Models\Product;
 use App\Models\Collection;
 
-class ProductController {
+class ProductController
+{
     private $db;
 
     public function __construct($db) {
@@ -19,6 +20,6 @@ class ProductController {
         $collections = $collection->read()->fetchAll(\PDO::FETCH_ASSOC);
         $products = $product->read()->fetchAll(\PDO::FETCH_ASSOC);
 
-        include __DIR__ . '/../views/product_list.php';
+        include __DIR__ . '/../views/product_list.html';
     }
 }

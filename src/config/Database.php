@@ -5,7 +5,8 @@ namespace App\Config;
 use PDO;
 use PDOException;
 
-class Database {
+class Database
+{
     private $conn;
 
     public function getConnection() {
